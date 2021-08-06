@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    
+    <div class="buttons">
+        <button class="button" id="button1">Fetch File</button>
+         <button class="button" id="button2">Fetch Users</button>
+         <button class="button" id="button3">Fetch Comments</button>
+    </div>
+          
+      <h3>Post Comment</h3>
+
+      <form id="myForm">
+        <input type="email" placeholder="Enter email" id="email">
+        <br>
+          <input type="text" placeholder="Comment Title" id="title">
+          <br>
+         
+          <textarea cols="30" rows="10" placeholder="Drop Comment" id="comment"></textarea>
+          <br>
+          <input type="submit" value="Submit">
+      </form>
+
+
+       <div id="output">
+
+       </div>
+
+    <script src="main.js"></script>
+</body>
+</html>
